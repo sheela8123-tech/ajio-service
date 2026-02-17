@@ -1,8 +1,9 @@
 spring:
   application:
     name: ajio-user
-
   config:
-    import: optional:configserver:http://localhost:8888
+    import: optional:configserver:http://localhost:8762
+  profiles:
+    active: dev
 
-  
+
