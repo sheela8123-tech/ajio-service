@@ -13,9 +13,9 @@
 	</parent>
 
 	<groupId>com.ajio</groupId>
-	<artifactId>ajio-user</artifactId>
+	<artifactId>ajio-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ajio-user</name>
+	<name>ajio-service</name>
 	<description>Ajio User Microservice</description>
 
 	<properties>
