@@ -1,9 +1,7 @@
 spring:
   application:
-    name: ajio-user
+    name: ajio-user   # matches the Git file prefix
   config:
-    import: optional:configserver:http://localhost:8762
+    import: optional:configserver:http://host.docker.internal:8762
   profiles:
     active: dev
-
-
